@@ -49,7 +49,7 @@ class Dog(Animal):
         print("The slippers delivered!")
 
 
-def feed_animals(animals: list) -> None:
+def feed_animals(animals: list) -> int:
     total_food = 0
     for animal in animals:
         if animal.is_hungry:
